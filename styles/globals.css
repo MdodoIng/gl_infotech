@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .wrapper {
+    width: min(94%, 1540px);
+    margin-inline: auto;
+  }
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
