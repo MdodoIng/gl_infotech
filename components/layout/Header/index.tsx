@@ -4,7 +4,7 @@ import Bottom from "./Bottom";
 
 const Header = () => {
   return (
-    <nav className="flex flex-col overflow-x-clip z-50" >
+    <nav className="flex flex-col overflow-x-clip z-50">
       <Top />
       <Bottom />
     </nav>

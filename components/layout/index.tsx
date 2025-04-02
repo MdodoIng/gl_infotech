@@ -6,7 +6,6 @@ const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="z-0 relative">
       <Header />
-
       <main className="z-auto relative">{children}</main>
       <Footer />
     </div>

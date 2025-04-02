@@ -24,7 +24,9 @@ const socialMedia = [group54, group55, group57, group59];
 
 const Top = () => {
   return (
-    <menu className={` wrapper flex items-start justify-between 2xl:gap-40 lg:gap-20 gap-10 max-lg:flex-wrap`}>
+    <menu
+      className={` wrapper flex items-start justify-between 2xl:gap-40 lg:gap-20 gap-10 max-lg:flex-wrap`}
+    >
       <li className="text-[#B9B9B9] shrink-0">
         <Image
           src={logo}

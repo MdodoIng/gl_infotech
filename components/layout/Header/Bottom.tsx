@@ -37,7 +37,9 @@ const Bottom = () => {
             <Link
               href={link.href}
               className={`text-[#000000] xl:text-[16px] text-sm relative z-0 ${
-                isActive === idx ? "font-bold after:absolute after:w-4 after:h-[2px] after:bg-[#004FFF] after:bottom-0 after:left-0 " : "font-medium"
+                isActive === idx
+                  ? "font-bold after:absolute after:w-4 after:h-[2px] after:bg-[#004FFF] after:bottom-0 after:left-0 "
+                  : "font-medium"
               }`}
             >
               {link.name}
@@ -84,8 +86,6 @@ const Bottom = () => {
       </menu>
 
       <MobileMenu links={links!} />
-
-    
     </div>
   );
 };

@@ -59,7 +59,7 @@ const MobileMenu = ({
       <div
         className={`${
           isToggle ? "max-h-[500px]" : "max-h-0"
-        } overflow-hidden transition-all duration-300 ease-in-out absolute top-16 right-0 w-max bg-[#004FFF] rounded-b-lg shadow-lg z-50 `} 
+        } overflow-hidden transition-all duration-300 ease-in-out absolute top-16 right-0 w-max bg-[#004FFF] rounded-b-lg shadow-lg z-50 `}
       >
         <ul className="flex flex-col gap-4 bg-white p-6">
           {links.map((link, idx) => (

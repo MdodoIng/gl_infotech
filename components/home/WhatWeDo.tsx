@@ -10,7 +10,10 @@ const WhatWeDo = () => {
         <div className="flex flex-col">
           <h2 className="2xl:text-[90px] lg:text-6xl text-4xl font-bold tracking-[-1.77px] leading-[100%]">
             We Spread <br />
-            <small className="font-medium 2xl:text-[60px] lg:text-5xl text-3xl">Around</small> India
+            <small className="font-medium 2xl:text-[60px] lg:text-5xl text-3xl">
+              Around
+            </small>{" "}
+            India
           </h2>
           <p className="font-medium 2xl:mt-4 lg:mt-3 mt-2 mb-10  lg:text-lg text-base md:max-w-[40ch]">
             Lorem Ipsum is simply dummy text of the printing and typesetting

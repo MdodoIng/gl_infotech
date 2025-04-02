@@ -7,12 +7,18 @@ import fourteenImg from "@/assets/images/Group 4.png";
 
 const AboutUs = () => {
   return (
-    <section className={`wrapper grid xl:grid-cols-3 md:grid-cols-2 max-xl:items-center gap-10 ${main_padding.y}`}>
-      <Image src={pipesImg} alt="" className="object-contain object-bottom max-xl:order-3" />
+    <section
+      className={`wrapper grid xl:grid-cols-3 md:grid-cols-2 max-xl:items-center gap-10 ${main_padding.y}`}
+    >
+      <Image
+        src={pipesImg}
+        alt=""
+        className="object-contain object-bottom max-xl:order-3"
+      />
       <div className="flex flex-col max-xl:col-span-2">
         <h2 className="lg:text-4xl text-3xl font-bold">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-        </h2> 
+        </h2>
         <h3 className="lg:text-xl text-lg font-bold lg:mt-5 mt-4">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industryLorem Ipsum is simply dummy text of the printing and
@@ -44,9 +50,16 @@ const AboutUs = () => {
           alt=""
           className=" w-[min(250px,100%)] h-auto object-contain"
         />
-        <h3 className="mt-3 font-bold text-[#D12A24] lg:text-[30px] text-2xl">Years of excellence</h3>
-        <p className="font-medium text-center lg:text-xl text-lg max-w-[30ch]">The <br /> one of the leading manufacturers and traders in the plastics sector, was established in.</p>
-        <span className="bg-gradient-to-l from-[#0133A5]  to-[#386AEB] text-white font-bold lg:text-[28px] text-2xl lg:p-4 p-2 w-full text-center lg:rounded-[20px] rounded-2xl lg:mt-10 mt-4">Since 1981</span>
+        <h3 className="mt-3 font-bold text-[#D12A24] lg:text-[30px] text-2xl">
+          Years of excellence
+        </h3>
+        <p className="font-medium text-center lg:text-xl text-lg max-w-[30ch]">
+          The <br /> one of the leading manufacturers and traders in the
+          plastics sector, was established in.
+        </p>
+        <span className="bg-gradient-to-l from-[#0133A5]  to-[#386AEB] text-white font-bold lg:text-[28px] text-2xl lg:p-4 p-2 w-full text-center lg:rounded-[20px] rounded-2xl lg:mt-10 mt-4">
+          Since 1981
+        </span>
       </div>
     </section>
   );
